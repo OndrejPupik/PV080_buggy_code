@@ -54,7 +54,7 @@ if __name__ == '__main__':
     choice  = input("Select vulnerability: ")
     if choice == "1":
         NEW_PERSON = Person("Vickie")
-        print_nametag(input("Please format your nametag: "), new_person)
+        print_nametag(input("Please format your nametag: "), NEW_PERSON)
     elif choice == "2":
         urlib_version = input("Choose version of urllib: ")
         fetch_website(urlib_version, url="https://www.google.com")
